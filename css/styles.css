@@ -1,0 +1,304 @@
+/*******************************
+***********BASE STYLES**********
+*******************************/
+
+body {
+	background-color: #FFD6A0;
+	text-align: center;
+	font-family: Raleway, serif;
+	color: #4a4a4a;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	padding: 5% 0% 10% 0%;
+}
+
+.main-nav ul {
+	list-style-type: none;
+	margin-bottom: 10%;
+}	
+
+#navigation {
+	text-transform: uppercase;
+	padding: 5%;
+}
+#navigation li {
+	background-color: white;
+	margin-bottom: 2.5%;
+	padding: 5%;
+	font-weight: bold;
+}
+
+.intro {
+	margin-bottom: 7.5%;
+}
+.intro-text {
+	padding: 7.5%;
+}
+
+.page-title {
+	padding: 7.5% 0%;
+	font-size: 1em;
+}
+
+.portfolio-img,
+.student-img {
+	width: 80%;
+}
+.service-img {
+	width: 60%;
+}
+
+#portfolio {
+	background-color: #C7E3FB; 
+}
+.portfolio-text {
+	padding: 2.5% 5% 10% 5%;
+}
+
+#services {
+	background-color: #A9C59D;
+	padding-bottom: 5%;
+}
+
+#contact {
+	padding-bottom: 5%;
+}
+#contact p {
+	padding: 0 5% 0 5%;
+}
+.contact-info {
+	padding-top: 5%;
+}
+
+#bottom-name,
+#bottom-back-to-top,
+#bottom-menu {
+	font-weight: bold;
+}
+#bottom-menu {
+	display: none;
+}
+#bottom-name {
+	float: left;
+}
+#bottom-menu,
+#bottom-back-to-top {
+	float: right;
+}
+
+/*******************************
+**********MEDIA QUERIES*********
+*******************************/
+
+/* 768 Pixels and Up (TABLET) */
+@media (min-width: 768px) {
+
+	footer {
+		padding: 2.5% 0% 7.5% 0%;
+	}
+
+	#top {
+		padding-top: 5%;
+	}
+
+	.main-nav ul {
+		margin-bottom: 0%;
+	}
+
+	#navigation {
+		padding: 2.5%;
+		margin-bottom: 5%;
+	}
+	#navigation li  {
+		display: inline;
+		background-color: #FFD6A0;
+		font-size: 1em;
+		padding: 2%;
+	}
+
+	.intro {
+		font-size: 1.25em;
+	}
+	.intro-text {
+		width: 50%;
+		padding: 0% 5% 10% 2.5%;
+		text-align: left;
+	}
+
+	.page-title {
+		padding: 5% 0%;
+	}
+
+	.student-img {
+		float: right;
+		width: 40%;
+		padding-right: 2.5%;
+	}
+
+	#portfolio,
+	#services {
+		overflow: hidden; 
+	}
+
+	.portfolio-item {
+		width: 50%;
+		float: left;	
+	}
+	.portfolio-img {
+		width: 95%;
+	}
+
+	.service {
+		width: 33%;
+		float: left;
+	}
+	.service-img {
+		width: 60%;
+	}
+
+	#contact p {
+		padding-right: 20%;
+		padding-left: 20%;
+	}
+
+	#bottom-menu {
+		display: initial;
+	}
+
+	#bottom-back-to-top {
+		display: none;
+	}
+
+}
+
+/* 1024 Pixels and Up (DESKTOP) */
+@media (min-width: 1024px) {
+	
+	nav {
+		float: right;
+		text-align: right;
+		width: 45%;
+	}
+
+	footer {
+		padding: 2.5% 0% 5% 0%;
+	}
+
+	#navigation {
+		padding-top: 5%;
+	}
+
+	#top {
+		float: left;
+		padding-top: 1%;
+		padding-left: 2.5%;
+	}
+
+	.intro {
+		display: inline-block;
+	}
+
+	.student-img {
+		padding-top: 2%;
+	}
+
+	.portfolio-item {
+		width: 33%;
+	}
+	.portfolio-item h2,
+	.service h2 {
+		font-size: 1em;
+	}
+
+	.page-title {
+		padding: 5% 0%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
